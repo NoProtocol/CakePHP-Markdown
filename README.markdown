@@ -23,14 +23,14 @@ In your controller, make a EOF variable containing something like:
 	Markdown allows you to write text in a easy-to-read and easy-to-write plain text format,
 	and Markdown will convert it to structurally valid XHTML (or HTML).
 
-	You can easily make text **bold** or **italic**  
+	You can easily make text **bold** or *italic** 
 	Use [Some link](http://www.example.com/ "Example")  
 	Use [Another link][] like so  
 
 	And any other Markdown features, as shown on [Daring Fireball][]
 
-	  [Another link]: http://www.mindthecode.com/
-	  [Daring Fireball]: http://daringfireball.net/
+	[Another link]: http://www.mindthecode.com/
+	[Daring Fireball]: http://daringfireball.net/
 
 And set this to a variable. For instance, `$plain` and assign it to the view:
 
